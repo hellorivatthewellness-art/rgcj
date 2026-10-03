@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Biological Age Carousel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="fonts/fonts.css" rel="stylesheet">
+<style>
+  :root {
+    --ivory: #F3EEE6;
+    --ink: #1E2622;
+    --muted: #6B6F68;
+    --gold: #A8875A;
+    --line: #D8CFC1;
+    --deep: #1E2A25;
+    --deep-ivory: #EDE6DA;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #888; font-family: 'Inter', Helvetica, Arial, sans-serif; }
+  .slide {
+    width: 1080px; height: 1350px; position: relative; overflow: hidden;
+    background: var(--ivory); color: var(--ink);
+    padding: 110px 100px 0; display: flex; flex-direction: column;
+    margin: 0 auto 40px;
+  }
+  .slide.dark { background: var(--deep); color: var(--deep-ivory); }
+  .serif { font-family: 'Cormorant Garamond', Georgia, serif; }
+  .eyebrow {
+    font-size: 22px; letter-spacing: .32em; text-transform: uppercase;
+    color: var(--gold); font-weight: 500;
+  }
+  .rule { width: 72px; height: 2px; background: var(--gold); margin: 40px 0; }
+  h1 { font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 400; line-height: 1.02; letter-spacing: -.01em; }
+  h2 { font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 400; font-size: 84px; line-height: 1.05; letter-spacing: -.005em; }
+  p.body { font-size: 33px; line-height: 1.5; font-weight: 300; color: var(--ink); max-width: 860px; }
+  .dark p.body { color: var(--deep-ivory); }
+  p.body + p.body { margin-top: 26px; }
+  em.g { font-style: italic; color: var(--gold); }
+  .list { list-style: none; margin-top: 36px; border-top: 1px solid var(--line); }
+  .list li {
+    font-size: 34px; font-weight: 300; padding: 24px 0; border-bottom: 1px solid var(--line);
+    display: flex; align-items: baseline; gap: 28px;
+  }
+  .list li span.n { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 30px; color: var(--gold); width: 44px; }
+  .footer {
+    margin-top: auto; padding: 34px 0 54px; border-top: 1px solid var(--line);
+    display: flex; justify-content: space-between; align-items: flex-end; gap: 40px;
+  }
+  .dark .footer { border-top-color: rgba(237,230,218,.2); }
+  .src { font-size: 19px; line-height: 1.45; color: var(--muted); max-width: 720px; }
+  .dark .src { color: rgba(237,230,218,.6); }
+  .src b { font-weight: 500; color: var(--ink); }
+  .dark .src b { color: var(--deep-ivory); }
+  .meta { text-align: right; font-size: 19px; letter-spacing: .24em; text-transform: uppercase; color: var(--muted); white-space: nowrap; }
+  .dark .meta { color: rgba(237,230,218,.6); }
+  .meta .brand { display: block; margin-top: 8px; color: var(--gold); }
+  .neq { display: flex; align-items: center; gap: 30px; margin: 10px 0 46px; }
+  .neq .t { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 64px; line-height: 1; }
+  .neq .sym { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 80px; color: var(--gold); }
+  .contrast { display: grid; grid-template-columns: 1fr 1fr; gap: 0; margin: 50px 0 54px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .contrast > div { padding: 40px 0; }
+  .contrast > div + div { border-left: 1px solid var(--line); padding-left: 48px; }
+  .contrast .lab { font-size: 20px; letter-spacing: .28em; text-transform: uppercase; color: var(--muted); margin-bottom: 22px; }
+  .contrast .q { font-family: 'Cormorant Garamond', Georgia, serif; font-style: italic; font-size: 58px; line-height: 1.1; }
+  .contrast > div + div .q { color: var(--gold); }
+  .swipe { position: absolute; right: 100px; top: 116px; font-size: 20px; letter-spacing: .3em; text-transform: uppercase; color: var(--muted); }
+  .dark .swipe { color: rgba(237,230,218,.6); }
+  .bigclock { position: absolute; right: -320px; bottom: 60px; width: 720px; height: 720px; border-radius: 50%; border: 1px solid var(--line); }
+  .bigclock::before { content: ""; position: absolute; inset: 70px; border-radius: 50%; border: 1px solid var(--line); }
+  .bigclock::after { content: ""; position: absolute; inset: 160px; border-radius: 50%; border: 1px solid var(--gold); opacity: .55; }
+  .z { position: relative; z-index: 1; }
+</style>
+</head>
+<body>
+
+<!-- 1 — HOOK -->
+<section class="slide dark" id="s1">
+  <div class="eyebrow">Longevity · Biological age</div>
+  <div class="swipe">Swipe →</div>
+  <h1 style="font-size:132px; margin-top:150px;">You are not<br>your biological<br><em class="g">age.</em></h1>
+  <div class="rule"></div>
+  <p class="body serif" style="font-size:46px; line-height:1.3; font-style:italic; font-weight:400;">
+    Your birthday tells you how long you’ve lived.<br>Your biology tells a deeper story.
+  </p>
+  <div class="footer">
+    <div class="src">Ageing is shaped by many molecular and cellular changes, not simply the passing of time.<br><b>López-Otín et al. (2023)</b>, Hallmarks of aging: An expanding universe. <i>Cell</i>.</div>
+    <div class="meta">01 / 06<span class="brand">The Wellness London</span></div>
+  </div>
+</section>
+
+<!-- 2 — THE DIFFERENCE -->
+<section class="slide" id="s2">
+  <div class="eyebrow">The difference</div>
+  <div class="rule"></div>
+  <div class="neq"><span class="t">Chronological age</span><span class="sym">≠</span><span class="t"><em class="g">Biological age</em></span></div>
+  <p class="body">Your <b style="font-weight:500">chronological age</b> is simple: the number of years since you were born.</p>
+  <p class="body">Your <b style="font-weight:500">biological age</b> is an estimate of how your body is ageing, based on measurable biological signals, including:</p>
+  <ul class="list">
+    <li><span class="n">i.</span>DNA changes</li>
+    <li><span class="n">ii.</span>Blood biomarkers</li>
+    <li><span class="n">iii.</span>Inflammation markers</li>
+    <li><span class="n">iv.</span>Metabolic indicators</li>
+  </ul>
+  <div class="footer">
+    <div class="src">Biomarkers of ageing are measurable characteristics that reflect ageing processes and health trajectories.<br><b>Moqri et al. (2024)</b>, Validation of biomarkers of aging. <i>Nature Medicine</i>.</div>
+    <div class="meta">02 / 06<span class="brand">The Wellness London</span></div>
+  </div>
+</section>
+
+<!-- 3 — THE SCIENCE -->
+<section class="slide" id="s3">
+  <div class="bigclock"></div>
+  <div class="z" style="display:flex;flex-direction:column;flex:1;">
+    <div class="eyebrow">The science behind it</div>
+    <div class="rule"></div>
+    <h2>Your cells<br>keep a <em class="g">record.</em></h2>
+    <p class="body" style="margin-top:56px;">One of the most studied ways to estimate biological age is through</p>
+    <p class="serif" style="font-size:78px; margin:14px 0 30px;">DNA methylation</p>
+    <p class="body" style="max-width:640px;">Chemical changes that influence how genes are expressed. As we age, these patterns change.</p>
+    <p class="body" style="max-width:640px;">Scientists use them to build <em class="g" style="font-weight:400">epigenetic clocks</em>: tools designed to estimate biological ageing.</p>
+    <div class="footer">
+      <div class="src">Introduced one of the most widely recognised epigenetic clock models.<br><b>Horvath (2013)</b>, DNA methylation age of human tissues and cell types. <i>Genome Biology</i>.</div>
+      <div class="meta">03 / 06<span class="brand">The Wellness London</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 4 — WHY IT MATTERS -->
+<section class="slide" id="s4">
+  <div class="eyebrow">Why does this matter?</div>
+  <div class="rule"></div>
+  <h2>Ageing happens<br><em class="g">before</em> symptoms appear.</h2>
+  <p class="body" style="margin-top:44px;">Many changes associated with ageing build gradually over years. Biological markers help researchers better understand:</p>
+  <ul class="list">
+    <li><span class="n">01</span>Cardiovascular health</li>
+    <li><span class="n">02</span>Inflammation</li>
+    <li><span class="n">03</span>Metabolism</li>
+    <li><span class="n">04</span>Cellular ageing</li>
+  </ul>
+  <p class="serif" style="font-size:42px; line-height:1.3; margin-top:44px; font-style:italic;">The goal is not to predict your future perfectly.<br><span style="color:var(--gold)">It is to understand your health today.</span></p>
+  <div class="footer">
+    <div class="src">Age-related biological changes contribute to many chronic conditions.<br><b>Kennedy et al. (2014)</b>, Geroscience: Linking aging to chronic disease. <i>Cell</i>.</div>
+    <div class="meta">04 / 06<span class="brand">The Wellness London</span></div>
+  </div>
+</section>
+
+<!-- 5 — THE SHIFT -->
+<section class="slide" id="s5">
+  <div class="eyebrow">The shift in healthcare</div>
+  <div class="rule"></div>
+  <h2>From <em class="g">reactive</em><br>to preventative.</h2>
+  <div class="contrast">
+    <div><div class="lab">Traditional healthcare asks</div><div class="q">“Is something wrong?”</div></div>
+    <div><div class="lab">Longevity medicine asks</div><div class="q">“What is changing?”</div></div>
+  </div>
+  <p class="body">By understanding your biomarkers over time, healthcare professionals can build a clearer picture of your individual health journey.</p>
+  <div class="footer">
+    <div class="src">Reviews how ageing biomarkers can be used to identify and evaluate longevity interventions.<br><b>Moqri et al. (2023)</b>, Biomarkers of aging for the identification and evaluation of longevity interventions. <i>Cell</i>.</div>
+    <div class="meta">05 / 06<span class="brand">The Wellness London</span></div>
+  </div>
+</section>
+
+<!-- 6 — CLOSE -->
+<section class="slide dark" id="s6">
+  <div class="eyebrow">The Wellness London</div>
+  <h1 style="font-size:108px; margin-top:90px;">Your age is a number.<br><em class="g">Your biology<br>is a story.</em></h1>
+  <div class="rule"></div>
+  <p class="body">Understanding your biomarkers gives you insight beyond a single health check.</p>
+  <p class="body">Because the future of healthcare is not waiting for symptoms. It is understanding your body earlier.</p>
+  <div class="footer" style="align-items:flex-start;">
+    <div class="src" style="font-size:18px;">
+      <b>Sources</b><br>
+      López-Otín C, et al. (2023). <i>Cell</i>.<br>
+      Moqri M, et al. (2024). <i>Nature Medicine</i>.<br>
+      Horvath S. (2013). <i>Genome Biology</i>.<br>
+      Kennedy BK, et al. (2014). <i>Cell</i>.<br>
+      Moqri M, et al. (2023). <i>Cell</i>.
+    </div>
+    <div class="meta" style="text-align:right;">06 / 06
+      <span class="brand serif" style="font-size:34px; letter-spacing:.06em; text-transform:none; margin-top:18px;">The Wellness London</span>
+      <span style="display:block; margin-top:8px; letter-spacing:.14em; font-size:15px;">Doctor-led health insights.<br>Personalised to you.</span>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
