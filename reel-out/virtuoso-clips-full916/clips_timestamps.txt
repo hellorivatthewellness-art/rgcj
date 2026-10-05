@@ -1,10 +1,11 @@
-Source: linkedin-video-703kbps.mp4 (1280x720 letterboxed 2.39:1, 45.6s). All clips 1920x1080 (full-frame 16:9), 30fps, H.264/AAC.
+Source: linkedin-video-703kbps.mp4 (1280x720 letterboxed 2.39:1, 45.6s). All clips 1080x1920 full-screen 9:16 (no blurred background), 30fps, H.264/AAC.
 Source VO (3 lines only): 00.00-03.12 "When you see a virtuoso perform, you just know it."
                           23.82-30.66 "I go in with the objective of giving them hope when they need it the most."
                           31.86-34.52 "So without him, I wouldn't be here."
 Cuts are only in music-only gaps; 0.5s video dissolve + equal-power audio crossfade at each join.
-Picture: 16:9 crop (860x484 at x=210, y=144) of the area every shot shares, scaled to 1920x1080 - no black bars.
-Burned-in subtitles are lifted from the letterbox bar and overlaid at the bottom of the picture with a soft shadow.
+Picture: a 9:16 window (272x484) of the 2.39:1 picture, positioned per shot to keep the subject in frame (slow pans on moving shots).
+End cards ("Every life you save keeps going", logo) are shown whole on black, since they are wider than the 9:16 window.
+Burned-in subtitles are lifted from the letterbox bar and overlaid near the bottom of the frame with a soft shadow.
 No added on-screen text; only the original burned-in subtitles and cards.
 
 CLIP 1 - "Virtuoso"  (topic: surgical skill as mastery)                     14.53s
