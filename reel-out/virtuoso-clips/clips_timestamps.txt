@@ -3,6 +3,7 @@ Source VO (3 lines only): 00.00-03.12 "When you see a virtuoso perform, you just
                           23.82-30.66 "I go in with the objective of giving them hope when they need it the most."
                           31.86-34.52 "So without him, I wouldn't be here."
 Cuts are only in music-only gaps; 0.5s video dissolve + equal-power audio crossfade at each join.
+Picture cropped to the area every shot shares (y 144-627; some shots have a thicker top bar), so size and framing stay constant.
 Burned-in subtitles (letterbox bar) are cropped as their own strip and shown ~2x larger under the picture.
 No added on-screen text; only the original burned-in subtitles and cards.
 
