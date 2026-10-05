@@ -1,0 +1,27 @@
+Source: linkedin-video_1.mp4 (1280x720, 76.47s). All clips 1080x1920, 30fps, H.264/AAC.
+Every cut is at a sentence break; 0.5s video dissolve + equal-power audio crossfade at each join.
+Hook text at top is a verbatim quote from the VO (no new claims); it fades out before the end card.
+
+CLIP 1 - "The limited life"  (topic: the default script / conformity)       31.97s
+  Hook: "But life, that's a very limited life."
+  01.70 -> 30.00   VO "When you grow up ... save a little money. But life, that's a very limited life."
+                   (VO 1.98-23.38) + "Don't watch" / "Play" cards (25.0-29.8)
+  72.00 -> 76.15   Brand logo end card
+
+CLIP 2 - "No smarter than you"  (topic: permission / imposter syndrome -> healthcare & science)   19.60s
+  Hook: "...people that were no smarter than you."
+  31.30 -> 42.45   VO "Life can be much broader once you discover one simple fact, and that is everything
+                   around you that you call life was made up by people that were no smarter than you."
+                   (VO 31.42-41.82)
+  61.00 -> 66.60   Card "The next era of healthcare and science will be led by people like you"
+                   (framed wider so the full line fits)
+  72.30 -> 76.15   Brand logo end card
+
+CLIP 3 - "Push and it pops out"  (topic: agency / experimenting)            18.90s
+  Hook: "If you push in, something will pop out the other side."
+  49.25 -> 60.20   VO "And the minute that you understand that you can poke life and actually something
+                   will, you know, if you push in something will pop out the other side, you can change it,
+                   you can mold it."  (VO 49.46-59.50)
+  67.70 -> 76.15   "Be on the frontier" card -> brand logo end card
+
+Rebuild: python3 build_clips.py  (expects the source as src.mp4 in the working dir)
