@@ -1,0 +1,20 @@
+Source: linkedin-video-703kbps.mp4 (1280x720 letterboxed 2.39:1, 45.6s). All clips 1920x1080 (full-frame 16:9), 30fps, H.264/AAC.
+Source VO (3 lines only): 00.00-03.12 "When you see a virtuoso perform, you just know it."
+                          23.82-30.66 "I go in with the objective of giving them hope when they need it the most."
+                          31.86-34.52 "So without him, I wouldn't be here."
+Cuts are only in music-only gaps; 0.5s video dissolve + equal-power audio crossfade at each join.
+Picture: 16:9 crop (860x484 at x=210, y=144) of the area every shot shares, scaled to 1920x1080 - no black bars.
+Burned-in subtitles are lifted from the letterbox bar and overlaid at the bottom of the picture with a soft shadow.
+No added on-screen text; only the original burned-in subtitles and cards.
+
+CLIP 1 - "Virtuoso"  (topic: surgical skill as mastery)                     14.53s
+  00.00 -> 10.93   VO line 1 + mastery montage (violin, conductor, skier, sprinter, surgeon); ends on a shot change
+  40.60 -> 44.70   Brand logo end card
+
+CLIP 2 - "Giving hope"  (topic: the surgeon's mission)                      17.07s
+  17.93 -> 31.40   Lead-in montage + VO line 2 (23.82-30.66); next line starts 31.86
+  40.60 -> 44.70   Brand logo end card
+
+CLIP 3 - "Without him"  (topic: patient outcomes / lives that keep going)   19.14s
+  11.33 -> 17.37   Survivor montage (bell ringing, newborn, runner), music only
+  31.10 -> 44.70   VO line 3 (31.86-34.52) + "Every life you save keeps going" card + brand logo
