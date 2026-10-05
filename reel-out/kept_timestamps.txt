@@ -1,0 +1,16 @@
+Source: linkedin-video_1.mp4 (1280x720, 76.47s)
+Output: linkedin-video_reel_9x16_25s.mp4 (1080x1920, 30fps, 25.00s, H.264/AAC)
+
+#  Source in -> out          Reel position    Content
+1  00:31.30 -> 00:49.25      00:00.00-17.95   VO: "Life can be much broader once you discover one simple fact, and that is
+                                              everything around you that you call life was made up by people that were no
+                                              smarter than you. And you can change it, you can influence it, you can build
+                                              your own things that other people can use."
+                                              (VO starts 31.42, last word "use." ends 48.72)
+2  01:08.60 -> 01:16.15      00:17.45-25.00   End card: "Be on the frontier" -> brand logo
+
+Transition: 0.5s video dissolve + 0.5s equal-power (qsin) audio crossfade at reel 17.45-17.95
+            (source 48.75-49.25, after the VO sentence ends at 48.72; next sentence starts 49.46).
+Audio: 0.08s fade-in at start; 0.8s fade-out at 24.2-25.0.
+Framing: 680x720 centre crop (x=300) scaled 1.59x to 1080x1144, placed at y=260 over a blurred fill.
+         Burned-in subtitles (source x 351-928, y 612-675) stay fully in frame on every shot.
