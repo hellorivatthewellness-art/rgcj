@@ -25,4 +25,5 @@
 <line x1="-160" y1="508" x2="-74" y2="508" stroke="#B86B2C" stroke-width="1.6"/>
 <line x1="74" y1="508" x2="160" y2="508" stroke="#B86B2C" stroke-width="1.6"/>
 <text class="sans" x="0" y="514" font-size="15" font-weight="500" letter-spacing="5" text-anchor="middle" fill="#B86B2C">EST. 2012</text>
+
 </g></svg>

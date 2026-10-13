@@ -7,9 +7,10 @@
 </style></defs>
 <rect width="1600" height="1440" fill="#FFFFFF"/>
 <text class="sans" x="80" y="92" font-size="14" font-weight="600" letter-spacing="4" fill="#0F2A1C" opacity=".55">BRAND IDENTITY GUIDELINES · JOSE T. CUYOS SR. II INTEGRATED SCHOOL</text>
+<text class="serif" font-style="italic" x="1520" y="96" font-size="30" text-anchor="end" fill="#2E5E3A">Where gaps become gateways</text>
 <rect x="80.5" y="130.5" width="620" height="660" fill="#FFFFFF" stroke="#0F2A1C" stroke-opacity=".12"/>
 <text class="sans" x="104" y="160" font-size="12" font-weight="600" letter-spacing="3" fill="#0F2A1C" opacity=".5">PRIMARY LOGO — STACKED</text>
-<g transform="translate(390 200)">
+<g transform="translate(390 186)">
 <g transform="translate(-120 0)"><g>
 <defs><clipPath id="bs1"><path d="M0,320 L0,120 A120,120 0 0 1 240,120 L240,320 Z"/></clipPath></defs>
 <g clip-path="url(#bs1)">
@@ -30,6 +31,7 @@
 <line x1="-160" y1="508" x2="-74" y2="508" stroke="#B86B2C" stroke-width="1.6"/>
 <line x1="74" y1="508" x2="160" y2="508" stroke="#B86B2C" stroke-width="1.6"/>
 <text class="sans" x="0" y="514" font-size="15" font-weight="500" letter-spacing="5" text-anchor="middle" fill="#B86B2C">EST. 2012</text>
+<text class="serif" font-style="italic" x="0" y="574" font-size="32" text-anchor="middle" fill="#0F2A1C">Where gaps become gateways</text>
 </g>
 <rect x="740.5" y="130.5" width="780" height="310" fill="#FFFFFF" stroke="#0F2A1C" stroke-opacity=".12"/>
 <text class="sans" x="764" y="160" font-size="12" font-weight="600" letter-spacing="3" fill="#0F2A1C" opacity=".5">SECONDARY LOGO — HORIZONTAL</text>
