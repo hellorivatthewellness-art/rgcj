@@ -41,6 +41,17 @@ CONTENTS
 05-guidelines
   brand-sheet       Overview of the logo system, seal, symbolism, colour, typography, and scale.
   elements-sheet    Overview of every individual brand element.
+  3d-sheet          Overview of the three-dimensional renders.
+
+06-3d
+  renders-front/    Front-facing 3D renders of every logo type on a white background.
+  renders-angled/   Three-quarter view renders of the seals, emblem badge, and primary logo.
+  models/           3D models (.glb) of every logo type: the seals as gold-rimmed medallions,
+                    the emblem as an arch badge, and the lockups as raised sign plaques.
+                    Open them in Windows 3D Viewer, Blender (File > Import > glTF 2.0),
+                    or any online glTF viewer such as gltf-viewer.donmccurdy.com.
+                    The models suit presentations, mock-ups, and 3D printing previews;
+                    the raised detail on each face is a surface (normal) map, not modelled geometry.
 
 USAGE NOTES
   - Do not stretch, recolour, rotate, or add effects (shadows, glows, outlines) to the logos.
