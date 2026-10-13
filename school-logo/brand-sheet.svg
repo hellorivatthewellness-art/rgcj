@@ -6,8 +6,9 @@
 .serif{font-family:"ISerif",serif;} .sans{font-family:"ISans",sans-serif;}
 </style></defs>
 <rect width="1600" height="1440" fill="#FFFFFF"/>
-<text class="sans" x="80" y="92" font-size="14" font-weight="600" letter-spacing="4" fill="#0F2A1C" opacity=".55">LOGO SYSTEM · JOSE T. CUYOS SR. II INTEGRATED SCHOOL</text>
+<text class="sans" x="80" y="92" font-size="14" font-weight="600" letter-spacing="4" fill="#0F2A1C" opacity=".55">BRAND IDENTITY GUIDELINES · JOSE T. CUYOS SR. II INTEGRATED SCHOOL</text>
 <rect x="80.5" y="130.5" width="620" height="660" fill="#FFFFFF" stroke="#0F2A1C" stroke-opacity=".12"/>
+<text class="sans" x="104" y="160" font-size="12" font-weight="600" letter-spacing="3" fill="#0F2A1C" opacity=".5">PRIMARY LOGO — STACKED</text>
 <g transform="translate(390 200)">
 <g transform="translate(-120 0)"><g>
 <defs><clipPath id="bs1"><path d="M0,320 L0,120 A120,120 0 0 1 240,120 L240,320 Z"/></clipPath></defs>
@@ -31,6 +32,7 @@
 <text class="sans" x="0" y="514" font-size="15" font-weight="500" letter-spacing="5" text-anchor="middle" fill="#B86B2C">EST. 2012</text>
 </g>
 <rect x="740.5" y="130.5" width="780" height="310" fill="#FFFFFF" stroke="#0F2A1C" stroke-opacity=".12"/>
+<text class="sans" x="764" y="160" font-size="12" font-weight="600" letter-spacing="3" fill="#0F2A1C" opacity=".5">SECONDARY LOGO — HORIZONTAL</text>
 <g transform="translate(790 185) scale(0.62)"><g transform="translate(0 0)">
 <g>
 <defs><clipPath id="bs2"><path d="M0,320 L0,120 A120,120 0 0 1 240,120 L240,320 Z"/></clipPath></defs>
@@ -53,6 +55,7 @@
 <text class="sans" x="328" y="272" font-size="17" font-weight="500" letter-spacing="5.5" fill="#B86B2C">EST. 2012</text>
 </g></g>
 <rect x="740" y="480" width="780" height="310" fill="#0F2A1C"/>
+<text class="sans" x="764" y="510" font-size="12" font-weight="600" letter-spacing="3" fill="#FDF7E1" opacity=".5">SECONDARY LOGO — REVERSED</text>
 <g transform="translate(790 535) scale(0.62)"><g transform="translate(0 0)">
 <g>
 <defs><clipPath id="bs3"><path d="M0,320 L0,120 A120,120 0 0 1 240,120 L240,320 Z"/></clipPath></defs>
@@ -74,8 +77,8 @@
 <text class="sans" x="328" y="222" font-size="28" font-weight="600" letter-spacing="15" fill="#F6C453">INTEGRATED SCHOOL</text>
 <text class="sans" x="328" y="272" font-size="17" font-weight="500" letter-spacing="5.5" fill="#F6C453">EST. 2012</text>
 </g></g>
-<text class="sans" x="80" y="860" font-size="14" font-weight="600" letter-spacing="4" fill="#0F2A1C" opacity=".55">SEAL</text>
-<text class="sans" x="880" y="860" font-size="14" font-weight="600" letter-spacing="4" fill="#0F2A1C" opacity=".55">TYPE</text>
+<text class="sans" x="80" y="860" font-size="14" font-weight="600" letter-spacing="4" fill="#0F2A1C" opacity=".55">OFFICIAL SEAL</text>
+<text class="sans" x="880" y="860" font-size="14" font-weight="600" letter-spacing="4" fill="#0F2A1C" opacity=".55">TYPOGRAPHY</text>
 <g transform="translate(80 880) scale(0.29)"><g>
 <defs>
   <path id="bs4t" d="M68.00,400.00 A332,332 0 0 1 732.00,400.00"/>
@@ -107,19 +110,23 @@
 <path d="M259.00,636.10 L259.00,266.00 A141,141 0 0 1 541.00,266.00 L541.00,636.10 A275,275 0 0 1 259.00,636.10 Z" fill="none" stroke="#FDF7E1" stroke-width="2.4"/>
 <path d="M250.00,641.16 L250.00,266.00 A150,150 0 0 1 550.00,266.00 L550.00,641.16 A284,284 0 0 1 250.00,641.16 Z" fill="none" stroke="#F6C453" stroke-width="2.4"/>
 </g></g>
-<text class="sans" x="370" y="940" font-size="15" font-weight="500" fill="#0F2A1C" opacity=".75">Sun with rice-grain rays: light of learning,</text>
-<text class="sans" x="370" y="964" font-size="15" font-weight="500" fill="#0F2A1C" opacity=".75">harvest, and the gold of Rosario.</text>
-<text class="sans" x="370" y="1000" font-size="15" font-weight="500" fill="#0F2A1C" opacity=".75">Mountains: the bukid the school serves.</text>
-<text class="sans" x="370" y="1036" font-size="15" font-weight="500" fill="#0F2A1C" opacity=".75">Woven band: its indigenous learners.</text>
-<text class="sans" x="370" y="1072" font-size="15" font-weight="500" fill="#0F2A1C" opacity=".75">Open book on copper earth: education</text>
-<text class="sans" x="370" y="1096" font-size="15" font-weight="500" fill="#0F2A1C" opacity=".75">rooted in the land.</text>
+<text class="sans" x="370" y="860" font-size="14" letter-spacing="4" font-weight="600" fill="#0F2A1C" opacity=".55">SYMBOLISM</text>
+<text class="sans" x="370" y="900" font-size="15" font-weight="600" fill="#0F2A1C" opacity="1">The Sun</text>
+<text class="sans" x="370" y="922" font-size="14" font-weight="500" fill="#0F2A1C" opacity=".75">Symbolizes the light of learning. Its rays, rendered as grains</text>
+<text class="sans" x="370" y="942" font-size="14" font-weight="500" fill="#0F2A1C" opacity=".75">of rice, honor the harvest and the gold of Rosario.</text>
+<text class="sans" x="370" y="976" font-size="15" font-weight="600" fill="#0F2A1C" opacity="1">The Mountains</text>
+<text class="sans" x="370" y="998" font-size="14" font-weight="500" fill="#0F2A1C" opacity=".75">Represent the upland community that the school serves.</text>
+<text class="sans" x="370" y="1030" font-size="15" font-weight="600" fill="#0F2A1C" opacity="1">The Woven Band</text>
+<text class="sans" x="370" y="1052" font-size="14" font-weight="500" fill="#0F2A1C" opacity=".75">Pays tribute to the school’s Indigenous learners and heritage.</text>
+<text class="sans" x="370" y="1084" font-size="15" font-weight="600" fill="#0F2A1C" opacity="1">The Open Book</text>
+<text class="sans" x="370" y="1106" font-size="14" font-weight="500" fill="#0F2A1C" opacity=".75">Signifies education rooted in the land and its people.</text>
 <text class="serif" x="880" y="940" font-size="58" fill="#0F2A1C">Instrument Serif</text>
-<text class="sans" x="880" y="972" font-size="14" font-weight="500" letter-spacing="1" fill="#0F2A1C" opacity=".6">School name · headings</text>
+<text class="sans" x="880" y="972" font-size="14" font-weight="500" letter-spacing="1" fill="#0F2A1C" opacity=".6">Primary Typeface — School Name and Headings</text>
 <text class="sans" x="880" y="1036" font-size="34" font-weight="600" letter-spacing="8" fill="#2E5E3A">INSTRUMENT SANS</text>
-<text class="sans" x="880" y="1066" font-size="14" font-weight="500" letter-spacing="1" fill="#0F2A1C" opacity=".6">Descriptor · labels · body</text>
-<text class="sans" x="80" y="1160" font-size="14" font-weight="600" letter-spacing="4" fill="#0F2A1C" opacity=".55">COLOUR</text>
-<rect x="80" y="1180" width="116" height="116" rx="4" fill="#0F2A1C" stroke="#0F2A1C" stroke-opacity=".12"/><text class="sans" x="80" y="1322" font-size="14" font-weight="600" fill="#0F2A1C">Forest</text><text class="sans" x="80" y="1342" font-size="13" font-weight="500" letter-spacing="1" fill="#0F2A1C" opacity=".6">#0F2A1C</text><rect x="212" y="1180" width="116" height="116" rx="4" fill="#2E5E3A" stroke="#0F2A1C" stroke-opacity=".12"/><text class="sans" x="212" y="1322" font-size="14" font-weight="600" fill="#0F2A1C">Bukid Green</text><text class="sans" x="212" y="1342" font-size="13" font-weight="500" letter-spacing="1" fill="#0F2A1C" opacity=".6">#2E5E3A</text><rect x="344" y="1180" width="116" height="116" rx="4" fill="#F6C453" stroke="#0F2A1C" stroke-opacity=".12"/><text class="sans" x="344" y="1322" font-size="14" font-weight="600" fill="#0F2A1C">Sun Gold</text><text class="sans" x="344" y="1342" font-size="13" font-weight="500" letter-spacing="1" fill="#0F2A1C" opacity=".6">#F6C453</text><rect x="476" y="1180" width="116" height="116" rx="4" fill="#B86B2C" stroke="#0F2A1C" stroke-opacity=".12"/><text class="sans" x="476" y="1322" font-size="14" font-weight="600" fill="#0F2A1C">Earth Copper</text><text class="sans" x="476" y="1342" font-size="13" font-weight="500" letter-spacing="1" fill="#0F2A1C" opacity=".6">#B86B2C</text><rect x="608" y="1180" width="116" height="116" rx="4" fill="#FDF7E1" stroke="#0F2A1C" stroke-opacity=".12"/><text class="sans" x="608" y="1322" font-size="14" font-weight="600" fill="#0F2A1C">Paper</text><text class="sans" x="608" y="1342" font-size="13" font-weight="500" letter-spacing="1" fill="#0F2A1C" opacity=".6">#FDF7E1</text>
-<text class="sans" x="880" y="1160" font-size="14" font-weight="600" letter-spacing="4" fill="#0F2A1C" opacity=".55">SCALE</text>
+<text class="sans" x="880" y="1066" font-size="14" font-weight="500" letter-spacing="1" fill="#0F2A1C" opacity=".6">Secondary Typeface — Descriptors, Labels, and Body Text</text>
+<text class="sans" x="80" y="1160" font-size="14" font-weight="600" letter-spacing="4" fill="#0F2A1C" opacity=".55">COLOR PALETTE</text>
+<rect x="80" y="1180" width="116" height="116" rx="4" fill="#0F2A1C" stroke="#0F2A1C" stroke-opacity=".12"/><text class="sans" x="80" y="1322" font-size="14" font-weight="600" fill="#0F2A1C">Deep Forest</text><text class="sans" x="80" y="1342" font-size="13" font-weight="500" letter-spacing="1" fill="#0F2A1C" opacity=".6">#0F2A1C</text><rect x="212" y="1180" width="116" height="116" rx="4" fill="#2E5E3A" stroke="#0F2A1C" stroke-opacity=".12"/><text class="sans" x="212" y="1322" font-size="14" font-weight="600" fill="#0F2A1C">Field Green</text><text class="sans" x="212" y="1342" font-size="13" font-weight="500" letter-spacing="1" fill="#0F2A1C" opacity=".6">#2E5E3A</text><rect x="344" y="1180" width="116" height="116" rx="4" fill="#F6C453" stroke="#0F2A1C" stroke-opacity=".12"/><text class="sans" x="344" y="1322" font-size="14" font-weight="600" fill="#0F2A1C">Sun Gold</text><text class="sans" x="344" y="1342" font-size="13" font-weight="500" letter-spacing="1" fill="#0F2A1C" opacity=".6">#F6C453</text><rect x="476" y="1180" width="116" height="116" rx="4" fill="#B86B2C" stroke="#0F2A1C" stroke-opacity=".12"/><text class="sans" x="476" y="1322" font-size="14" font-weight="600" fill="#0F2A1C">Earth Copper</text><text class="sans" x="476" y="1342" font-size="13" font-weight="500" letter-spacing="1" fill="#0F2A1C" opacity=".6">#B86B2C</text><rect x="608" y="1180" width="116" height="116" rx="4" fill="#FDF7E1" stroke="#0F2A1C" stroke-opacity=".12"/><text class="sans" x="608" y="1322" font-size="14" font-weight="600" fill="#0F2A1C">Paper Cream</text><text class="sans" x="608" y="1342" font-size="13" font-weight="500" letter-spacing="1" fill="#0F2A1C" opacity=".6">#FDF7E1</text>
+<text class="sans" x="880" y="1160" font-size="14" font-weight="600" letter-spacing="4" fill="#0F2A1C" opacity=".55">SCALE AND LEGIBILITY</text>
 <g transform="translate(880 1230.0) scale(0.5)"><g>
 <defs><clipPath id="sm0"><path d="M0,320 L0,120 A120,120 0 0 1 240,120 L240,320 Z"/></clipPath></defs>
 <g clip-path="url(#sm0)">
