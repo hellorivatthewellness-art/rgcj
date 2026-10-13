@@ -1,0 +1,32 @@
+JOSE T. CUYOS SR. II INTEGRATED SCHOOL — COLOR PALETTE
+
+Deep Forest
+  HEX  #0F2A1C
+  RGB  15, 42, 28
+  CMYK 64, 0, 33, 84 (approximate; confirm with your printer)
+  Use  Frames, text, mountains
+
+Field Green
+  HEX  #2E5E3A
+  RGB  46, 94, 58
+  CMYK 51, 0, 38, 63 (approximate; confirm with your printer)
+  Use  Sky, descriptor text
+
+Sun Gold
+  HEX  #F6C453
+  RGB  246, 196, 83
+  CMYK 0, 20, 66, 4 (approximate; confirm with your printer)
+  Use  Sun, woven band, accents
+
+Earth Copper
+  HEX  #B86B2C
+  RGB  184, 107, 44
+  CMYK 0, 42, 76, 28 (approximate; confirm with your printer)
+  Use  Earth, book cover, year
+
+Paper Cream
+  HEX  #FDF7E1
+  RGB  253, 247, 225
+  CMYK 0, 2, 11, 1 (approximate; confirm with your printer)
+  Use  Book pages, keylines
+
